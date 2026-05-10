@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO básico -->
+
+  <title>FocusFlow – Organize sua mente. Multiplique sua produtividade.</title>
+  <meta name="description" content="O sistema digital recorrente que transforma sua rotina em resultados reais. Templates, planejadores, metas e hábitos num só lugar." />
+  <meta name="keywords" content="produtividade, organização, foco, planner digital, metas, hábitos, FocusFlow" />
+  <meta name="author" content="FocusFlow" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph -->
+
+  <meta property="og:title" content="FocusFlow – Organize sua mente." />
+  <meta property="og:description" content="O sistema digital que transforma sua rotina em resultados reais." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://seudominio.com" />
+
+  <!-- Favicon simples via SVG inline data -->
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%234f6ef7'/><text x='50%' y='58%' dominant-baseline='middle' text-anchor='middle' font-size='18' font-family='Georgia' fill='white'>F</text></svg>" />
+
+  <!-- Google Fonts -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ───────────────────────────────────────────
+       NAV
+  ─────────────────────────────────────────── -->
+
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#hero" class="nav__logo">Focus<span>Flow</span></a>
+      <ul class="nav__links">
+        <li><a href="#beneficios">Benefícios</a></li>
+        <li><a href="#como-funciona">Como Funciona</a></li>
+        <li><a href="#planos">Planos</a></li>
+        <li><a href="#depoimentos">Depoimentos</a></li>
+      </ul>
+      <a href="#planos" class="btn btn--nav">Assinar</a>
+      <button class="nav__hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <!-- Mobile menu -->
+    <div class="nav__mobile" id="mobileMenu">
+      <a href="#beneficios">Benefícios</a>
+      <a href="#como-funciona">Como Funciona</a>
+      <a href="#planos">Planos</a>
+      <a href="#depoimentos">Depoimentos</a>
+      <a href="#planos" class="btn btn--primary">Assinar Agora</a>
+    </div>
+  </nav>
+
+  <!-- ───────────────────────────────────────────
+       HERO
+  ─────────────────────────────────────────── -->
+
+  <section class="hero" id="hero">
+    <!-- Orbs de fundo animados -->
+    <div class="hero__bg">
+      <div class="orb orb--1"></div>
+      <div class="orb orb--2"></div>
+      <div class="orb orb--3"></div>
+    </div>
+
+```
+<div class="hero__content">
+  <div class="hero__text">
+    <span class="hero__badge">✦ Sistema de Produtividade Digital</span>
+    <h1 class="hero__headline">
+      Organize sua mente.<br />
+      <em>Multiplique sua</em><br />
+      produtividade.
+    </h1>
+    <p class="hero__sub">
+      O sistema digital que transforma sua rotina em resultados reais —
+      templates, metas, hábitos e acompanhamento num só lugar.
+    </p>
+    <div class="hero__actions">
+      <a href="#planos" class="btn btn--primary btn--lg">Começar Agora</a>
+      <a href="#como-funciona" class="btn btn--ghost btn--lg">Ver como funciona</a>
+    </div>
+    <p class="hero__social-proof">
+      <span class="dot"></span> +4.200 pessoas organizando a vida com FocusFlow
+    </p>
+  </div>
+
+  <!-- Mockup flutuante CSS-only -->
+  <div class="hero__mockup" aria-hidden="true">
+    <div class="mockup-window">
+      <div class="mockup-window__bar">
+        <span></span><span></span><span></span>
+      </div>
+      <div class="mockup-window__body">
+        <div class="mock-header">
+          <div class="mock-avatar"></div>
+          <div>
+            <div class="mock-line mock-line--sm"></div>
+            <div class="mock-line mock-line--xs mock-line--accent"></div>
+          </div>
+          <div class="mock-badge">Hoje</div>
+        </div>
+        <div class="mock-progress-block">
+          <div class="mock-label">Foco diário</div>
+          <div class="mock-bar"><div class="mock-bar__fill" style="width:72%"></div></div>
+          <div class="mock-label mock-label--right">72%</div>
+        </div>
+        <div class="mock-tasks">
+          <div class="mock-task mock-task--done">
+            <span class="mock-check">✓</span> Revisão de metas
+          </div>
+          <div class="mock-task mock-task--done">
+            <span class="mock-check">✓</span> Bloco de foco (2h)
+          </div>
+          <div class="mock-task">
+            <span class="mock-circle"></span> Planner semanal
+          </div>
+          <div class="mock-task">
+            <span class="mock-circle"></span> Hábitos da noite
+          </div>
+        </div>
+        <div class="mock-chips">
+          <span class="mock-chip mock-chip--blue">Produtividade</span>
+          <span class="mock-chip mock-chip--purple">Metas</span>
+          <span class="mock-chip">Rotina</span>
+        </div>
+      </div>
+    </div>
+    <!-- Floating cards satélites -->
+    <div class="float-card float-card--tl">
+      <span class="float-card__icon">🎯</span>
+      <span>Meta atingida!</span>
+    </div>
+    <div class="float-card float-card--br">
+      <span class="float-card__icon">🔥</span>
+      <span>7 dias seguidos</span>
+    </div>
+  </div>
+</div>
+
+<!-- Scroll indicator -->
+<div class="scroll-indicator" aria-hidden="true">
+  <div class="scroll-indicator__mouse">
+    <div class="scroll-indicator__wheel"></div>
+  </div>
+  <span>Role para ver mais</span>
+</div>
+```
+
+  </section>
+
+  <!-- ───────────────────────────────────────────
+       BENEFÍCIOS
+  ─────────────────────────────────────────── -->
+
+  <section class="section beneficios" id="beneficios">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Por que FocusFlow?</span>
+        <h2 class="section-title">Tudo que você precisa para<br /><em>produzir de verdade</em></h2>
+      </div>
+
+```
+  <div class="benefits-grid">
+
+    <div class="benefit-card reveal">
+      <div class="benefit-card__icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/>
+          <line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/>
+        </svg>
+      </div>
+      <h3>Organização diária inteligente</h3>
+      <p>Planejadores inteligentes que se adaptam ao seu ritmo — nunca mais listas acumuladas.</p>
+    </div>
+
+    <div class="benefit-card reveal">
+      <div class="benefit-card__icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15 15"/>
+        </svg>
+      </div>
+      <h3>Sistema anti-procrastinação</h3>
+      <p>Técnicas comprovadas embutidas nos templates para você iniciar, sem desculpas.</p>
+    </div>
+
+    <div class="benefit-card reveal">
+      <div class="benefit-card__icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+          <polyline points="14 2 14 8 20 8"/>
+          <line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/>
+        </svg>
+      </div>
+      <h3>Templates toda semana</h3>
+      <p>Novos modelos e packs toda semana — sempre com conteúdo fresco e relevante.</p>
+    </div>
+
+    <div class="benefit-card reveal">
+      <div class="benefit-card__icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
+        </svg>
+      </div>
+      <h3>Metas e hábitos</h3>
+      <p>Defina, acompanhe e ajuste metas com visibilidade clara do seu progresso real.</p>
+    </div>
+
+    <div class="benefit-card reveal">
+      <div class="benefit-card__icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <rect x="5" y="2" width="14" height="20" rx="2"/><line x1="12" y1="18" x2="12" y2="18"/>
+        </svg>
+      </div>
+      <h3>Celular e PC</h3>
+      <p>Acesse de qualquer dispositivo. Sua produtividade não para quando você sai de casa.</p>
+    </div>
+
+    <div class="benefit-card reveal">
+      <div class="benefit-card__icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+          <circle cx="9" cy="7" r="4"/>
+          <path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+        </svg>
+      </div>
+      <h3>Comunidade exclusiva</h3>
+      <p>Entre para um grupo de pessoas sérias com os mesmos objetivos. Sem distrações.</p>
+    </div>
+
+  </div>
+</div>
+```
+
+  </section>
+
+  <!-- ───────────────────────────────────────────
+       COMO FUNCIONA
+  ─────────────────────────────────────────── -->
+
+  <section class="section como-funciona" id="como-funciona">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Simples assim</span>
+        <h2 class="section-title">Como funciona o <em>FocusFlow</em></h2>
+      </div>
+
+```
+  <div class="steps">
+    <div class="step reveal">
+      <div class="step__number">01</div>
+      <div class="step__connector" aria-hidden="true"></div>
+      <div class="step__icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path d="M20 12V22H4V12"/><path d="M22 7H2v5h20V7z"/>
+          <path d="M12 22V7"/><path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"/>
+          <path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"/>
+        </svg>
+      </div>
+      <h3>Escolha seu plano</h3>
+      <p>Selecione o plano ideal para o seu momento — Start, Pro ou Ultra. Sem contratos longos.</p>
+    </div>
+
+    <div class="step reveal">
+      <div class="step__number">02</div>
+      <div class="step__connector" aria-hidden="true"></div>
+      <div class="step__icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <circle cx="12" cy="12" r="10"/>
+          <polyline points="12 8 12 12 14 14"/>
+        </svg>
+      </div>
+      <h3>Acesso imediato</h3>
+      <p>Após o pagamento, você entra direto no seu painel com todos os materiais e templates.</p>
+    </div>
+
+    <div class="step reveal">
+      <div class="step__number">03</div>
+      <div class="step__icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
+        </svg>
+      </div>
+      <h3>Evolua todo dia</h3>
+      <p>Organize sua rotina, acompanhe metas e receba novos conteúdos toda semana.</p>
+    </div>
+  </div>
+</div>
+```
+
+  </section>
+
+  <!-- ───────────────────────────────────────────
+       VISUAL DO PRODUTO (mockups)
+  ─────────────────────────────────────────── -->
+
+  <section class="section produto" id="produto">
+    <div class="produto__bg" aria-hidden="true">
+      <div class="orb orb--produto-1"></div>
+      <div class="orb orb--produto-2"></div>
+    </div>
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">O Sistema</span>
+        <h2 class="section-title">Tudo que você precisa,<br /><em>num só lugar</em></h2>
+      </div>
+
+```
+  <div class="produto-grid">
+
+    <!-- Dashboard -->
+    <div class="produto-card produto-card--lg reveal" data-parallax="0.04">
+      <div class="produto-card__label">Dashboard</div>
+      <div class="dash-mock">
+        <div class="dash-mock__top">
+          <div>
+            <div class="mock-line mock-line--sm"></div>
+            <div class="mock-line mock-line--xs mock-line--muted"></div>
+          </div>
+          <div class="dash-score">87<span>%</span></div>
+        </div>
+        <div class="dash-bars">
+          <div class="dash-bar-wrap">
+            <div class="dash-bar-track"><div class="dash-bar-fill" style="height:60%"></div></div>
+            <span>Seg</span>
+          </div>
+          <div class="dash-bar-wrap">
+            <div class="dash-bar-track"><div class="dash-bar-fill" style="height:85%"></div></div>
+            <span>Ter</span>
+          </div>
+          <div class="dash-bar-wrap">
+            <div class="dash-bar-track"><div class="dash-bar-fill" style="height:45%"></div></div>
+            <span>Qua</span>
+          </div>
+          <div class="dash-bar-wrap">
+            <div class="dash-bar-track"><div class="dash-bar-fill dash-bar-fill--accent" style="height:90%"></div></div>
+            <span>Qui</span>
+          </div>
+          <div class="dash-bar-wrap">
+            <div class="dash-bar-track"><div class="dash-bar-fill" style="height:70%"></div></div>
+            <span>Sex</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hábitos -->
+    <div class="produto-card reveal" data-parallax="0.06">
+      <div class="produto-card__label">Hábitos</div>
+      <div class="habit-mock">
+        <div class="habit-row">
+          <span>Meditação</span>
+          <div class="habit-dots">
+            <div class="habit-dot h-done"></div>
+            <div class="habit-dot h-done"></div>
+            <div class="habit-dot h-done"></div>
+            <div class="habit-dot"></div>
+            <div class="habit-dot"></div>
+            <div class="habit-dot"></div>
+            <div class="habit-dot"></div>
+          </div>
+        </div>
+        <div class="habit-row">
+          <span>Leitura</span>
+          <div class="habit-dots">
+            <div class="habit-dot h-done"></div>
+            <div class="habit-dot h-done"></div>
+            <div class="habit-dot h-done"></div>
+            <div class="habit-dot h-done"></div>
+            <div class="habit-dot h-done"></div>
+            <div class="habit-dot"></div>
+            <div class="habit-dot"></div>
+          </div>
+        </div>
+        <div class="habit-row">
+          <span>Exercício</span>
+          <div class="habit-dots">
+            <div class="habit-dot h-done"></div>
+            <div class="habit-dot h-done"></div>
+            <div class="habit-dot"></div>
+            <div class="habit-dot"></div>
+            <div class="habit-dot"></div>
+            <div class="habit-dot"></div>
+            <div class="habit-dot"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Planner -->
+    <div class="produto-card reveal" data-parallax="0.05">
+      <div class="produto-card__label">Planner</div>
+      <div class="planner-mock">
+        <div class="planner-time">
+          <div class="p-slot"><span class="p-time">08h</span><div class="p-event p-event--blue">Deep Work</div></div>
+          <div class="p-slot"><span class="p-time">10h</span><div class="p-event p-event--empty"></div></div>
+          <div class="p-slot"><span class="p-time">12h</span><div class="p-event p-event--purple">Reunião</div></div>
+          <div class="p-slot"><span class="p-time">14h</span><div class="p-event p-event--empty"></div></div>
+          <div class="p-slot"><span class="p-time">16h</span><div class="p-event p-event--blue">Revisão</div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Calendário -->
+    <div class="produto-card produto-card--lg reveal" data-parallax="0.03">
+      <div class="produto-card__label">Calendário Inteligente</div>
+      <div class="cal-mock">
+        <div class="cal-header">
+          <span>Maio 2026</span>
+          <div>
+            <span class="cal-nav">‹</span>
+            <span class="cal-nav">›</span>
+          </div>
+        </div>
+        <div class="cal-grid">
+          <span class="cal-dh">D</span><span class="cal-dh">S</span><span class="cal-dh">T</span>
+          <span class="cal-dh">Q</span><span class="cal-dh">Q</span><span class="cal-dh">S</span>
+          <span class="cal-dh">S</span>
+          <!-- days -->
+          <span class="cal-d cal-d--muted">28</span><span class="cal-d cal-d--muted">29</span>
+          <span class="cal-d cal-d--muted">30</span><span class="cal-d">1</span>
+          <span class="cal-d">2</span><span class="cal-d">3</span><span class="cal-d">4</span>
+          <span class="cal-d">5</span><span class="cal-d">6</span><span class="cal-d">7</span>
+          <span class="cal-d">8</span><span class="cal-d">9</span><span class="cal-d cal-d--today">10</span>
+          <span class="cal-d">11</span>
+          <span class="cal-d">12</span><span class="cal-d">13</span><span class="cal-d">14</span>
+          <span class="cal-d cal-d--event">15</span><span class="cal-d">16</span>
+          <span class="cal-d">17</span><span class="cal-d">18</span>
+          <span class="cal-d">19</span><span class="cal-d">20</span><span class="cal-d">21</span>
+          <span class="cal-d">22</span><span class="cal-d">23</span><span class="cal-d">24</span>
+          <span class="cal-d">25</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+```
+
+  </section>
+
+  <!-- ───────────────────────────────────────────
+       PLANOS
+  ─────────────────────────────────────────── -->
+
+  <section class="section planos" id="planos">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Investimento</span>
+        <h2 class="section-title">Planos que cabem<br /><em>no seu ritmo</em></h2>
+        <p class="section-sub">Cancele quando quiser. Sem taxas escondidas.</p>
+      </div>
+
+```
+  <div class="pricing-grid">
+
+    <!-- Start -->
+    <div class="price-card reveal">
+      <div class="price-card__plan">Start</div>
+      <div class="price-card__price">
+        <span class="price-card__currency">R$</span>19
+        <span class="price-card__period">/mês</span>
+      </div>
+      <ul class="price-card__features">
+        <li><span class="feat-check">✓</span> Templates básicos</li>
+        <li><span class="feat-check">✓</span> Planner semanal</li>
+        <li><span class="feat-check">✓</span> Atualizações mensais</li>
+        <li class="feat-off"><span>✕</span> Sistema de metas avançado</li>
+        <li class="feat-off"><span>✕</span> Comunidade privada</li>
+        <li class="feat-off"><span>✕</span> Mentorias gravadas</li>
+      </ul>
+      <a href="#" class="btn btn--outline btn--full">Assinar Agora</a>
+    </div>
+
+    <!-- Pro (destaque) -->
+    <div class="price-card price-card--pro reveal">
+      <div class="price-card__badge">Mais Popular</div>
+      <div class="price-card__plan">Pro</div>
+      <div class="price-card__price">
+        <span class="price-card__currency">R$</span>39
+        <span class="price-card__period">/mês</span>
+      </div>
+      <ul class="price-card__features">
+        <li><span class="feat-check">✓</span> Tudo do Start</li>
+        <li><span class="feat-check">✓</span> Sistema de metas avançado</li>
+        <li><span class="feat-check">✓</span> Packs exclusivos</li>
+        <li><span class="feat-check">✓</span> Comunidade privada</li>
+        <li class="feat-off"><span>✕</span> Mentorias gravadas</li>
+        <li class="feat-off"><span>✕</span> Atualizações antecipadas</li>
+      </ul>
+      <a href="#" class="btn btn--primary btn--full">Assinar Agora</a>
+    </div>
+
+    <!-- Ultra -->
+    <div class="price-card reveal">
+      <div class="price-card__plan">Ultra</div>
+      <div class="price-card__price">
+        <span class="price-card__currency">R$</span>79
+        <span class="price-card__period">/mês</span>
+      </div>
+      <ul class="price-card__features">
+        <li><span class="feat-check">✓</span> Tudo do Pro</li>
+        <li><span class="feat-check">✓</span> Mentorias gravadas</li>
+        <li><span class="feat-check">✓</span> Templates premium</li>
+        <li><span class="feat-check">✓</span> Desafios semanais</li>
+        <li><span class="feat-check">✓</span> Atualizações antecipadas</li>
+        <li><span class="feat-check">✓</span> Suporte prioritário</li>
+      </ul>
+      <a href="#" class="btn btn--outline btn--full">Assinar Agora</a>
+    </div>
+
+  </div>
+
+  <p class="pricing-note reveal">
+    💳 Pagamento seguro &nbsp;·&nbsp; Cancele a qualquer momento &nbsp;·&nbsp; 7 dias de garantia
+  </p>
+</div>
+```
+
+  </section>
+
+  <!-- ───────────────────────────────────────────
+       DEPOIMENTOS
+  ─────────────────────────────────────────── -->
+
+  <section class="section depoimentos" id="depoimentos">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Comunidade</span>
+        <h2 class="section-title">O que dizem quem<br /><em>já transformou</em> a rotina</h2>
+      </div>
+
+```
+  <div class="testimonials-grid">
+
+    <div class="testimonial-card reveal">
+      <div class="stars">★★★★★</div>
+      <p class="testimonial-text">"Em 3 semanas com o FocusFlow consegui finalmente parar de procrastinar e entregar projetos no prazo. Os templates são incríveis."</p>
+      <div class="testimonial-author">
+        <div class="testimonial-avatar" style="background: linear-gradient(135deg, #c9d6ff, #e2e2e2)">
+          <span>AM</span>
+        </div>
+        <div>
+          <strong>Ana Martins</strong>
+          <span>Designer Freelancer</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="testimonial-card reveal">
+      <div class="stars">★★★★★</div>
+      <p class="testimonial-text">"O plano Pro mudou minha relação com o trabalho. A comunidade é extremamente engajada e os packs de organização valem muito mais do que o preço."</p>
+      <div class="testimonial-author">
+        <div class="testimonial-avatar" style="background: linear-gradient(135deg, #a8edea, #fed6e3)">
+          <span>RC</span>
+        </div>
+        <div>
+          <strong>Rafael Costa</strong>
+          <span>Desenvolvedor Full Stack</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="testimonial-card reveal">
+      <div class="stars">★★★★★</div>
+      <p class="testimonial-text">"Nunca achei que uma assinatura de produtividade pudesse ter tanto impacto. Os desafios semanais do Ultra me mantêm motivada todos os dias."</p>
+      <div class="testimonial-author">
+        <div class="testimonial-avatar" style="background: linear-gradient(135deg, #ffecd2, #fcb69f)">
+          <span>JS</span>
+        </div>
+        <div>
+          <strong>Juliana Santos</strong>
+          <span>Empreendedora Digital</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+```
+
+  </section>
+
+  <!-- ───────────────────────────────────────────
+       CTA FINAL
+  ─────────────────────────────────────────── -->
+
+  <section class="section cta-final" id="cta">
+    <div class="cta-final__bg" aria-hidden="true">
+      <div class="orb orb--cta-1"></div>
+      <div class="orb orb--cta-2"></div>
+    </div>
+    <div class="container cta-final__inner">
+      <span class="section-tag reveal">Pronto para começar?</span>
+      <h2 class="cta-final__headline reveal">
+        Pare de perder tempo e comece a<br /><em>construir consistência.</em>
+      </h2>
+      <p class="cta-final__sub reveal">Seu melhor mês começa com uma decisão. Acesso imediato após a assinatura.</p>
+      <a href="#planos" class="btn btn--primary btn--xl reveal">Quero Entrar no FocusFlow</a>
+    </div>
+  </section>
+
+  <!-- ───────────────────────────────────────────
+       FOOTER
+  ─────────────────────────────────────────── -->
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="#hero" class="nav__logo">Focus<span>Flow</span></a>
+        <p>O sistema digital de produtividade pessoal.</p>
+      </div>
+      <nav class="footer__links" aria-label="Links rápidos">
+        <strong>Links</strong>
+        <a href="#beneficios">Benefícios</a>
+        <a href="#como-funciona">Como Funciona</a>
+        <a href="#planos">Planos</a>
+        <a href="#depoimentos">Depoimentos</a>
+      </nav>
+      <nav class="footer__links" aria-label="Legal">
+        <strong>Legal</strong>
+        <a href="#">Privacidade</a>
+        <a href="#">Termos de Uso</a>
+        <a href="#">Suporte</a>
+      </nav>
+      <div class="footer__social">
+        <strong>Redes</strong>
+        <a href="#" class="footer__social-link" aria-label="Instagram FocusFlow">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <rect x="2" y="2" width="20" height="20" rx="5"/>
+            <circle cx="12" cy="12" r="4"/>
+            <circle cx="17.5" cy="6.5" r="0.5" fill="currentColor"/>
+          </svg>
+          @focusflow.app
+        </a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>© 2026 FocusFlow. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
